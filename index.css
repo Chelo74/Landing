@@ -20,7 +20,7 @@ header{
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-image: url("/Entregas/LandingPageProyect/ImgLandingPage/brick.jpg");
+    background-image: url("./ImgLandingPage/brick.jpg");
     background-repeat: repeat;
     padding: 15px 0 15px 0;
     border-bottom: 4px solid #FFBA08;
