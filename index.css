@@ -1,6 +1,6 @@
 @font-face {
     font-family: OpenSans-Regular;
-    src: url('/Entregas/LandingPageProyect/Fonts/Open_Sans/OpenSans-Regular.ttf');
+    src: url('./Fonts/Open_Sans/OpenSans-Regular.ttf');
 }
 
 *{
