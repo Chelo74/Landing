@@ -1,16 +1,23 @@
+/* >>>>> Animations <<<<< */
+
+
+
+/* >>>>> Fonts <<<<< */
 
 @font-face{
-    font-family: JosefinSans-Medium;
-    src: url('./Fonts/Josefin-Sans/static/JosefinSans-Medium.ttf');
-
     font-family: Shadows-Into-Light;
     src: url('./Fonts/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf');
+}
+
+@font-face {
+    font-family: JosefinSans-Medium;
+    src: url('./Fonts/Josefin-Sans/static/JosefinSans-Medium.ttf');
 }
 
 *{
     margin: 0px;
     padding: 0px;
-    font-family: "JosefinSans-Medium", Arial, Helvetica, sans-serif;
+    font-family: 'JosefinSans-Medium', Arial, Helvetica, sans-serif; 
     font-size: 10px;
 }
 
@@ -91,7 +98,7 @@ header{
 }
 
 .sloganHero{
-    font-family: Shadows-Into-Light;
+    font-family: 'Shadows-Into-Light';
     color: #F7F7F2;
     font-size: 6rem;
 }
@@ -109,6 +116,7 @@ header{
 .botonHero a{
     color: #121113;
     font-size: 1.9rem;
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -134,10 +142,10 @@ header{
 
 .sectionInfo p{
     display: block;
-    margin-inline-start: 110px;
-    margin-inline-end: 110px;
-    font-size: 2rem;
-    font-weight: 500;
+    margin-inline-start: 100px;
+    margin-inline-end: 100px;
+    font-size: 2.2rem;
+    font-weight: 600;
     text-align: center;
     line-height: 1.7;
     padding: 15px 15px 15px 15px;
@@ -153,31 +161,30 @@ header{
     background-color: #121113;
     justify-content: center;
     gap: 30px;
-
 }
 
-.sectionCards h3{
+.sectionCards h3, span{
     color: #F7F7F2;
     font-size: 4rem;
     text-align: center;
-    font-family:inherit;
-    letter-spacing: 2px;
+    letter-spacing: 1.8px;
 }
+
 
 .sectionCardsParagraph{
     color: #F7F7F2;
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 2.1rem;
+    font-weight: 550;
     text-align: center;
     line-height: 1.7;
-    margin-inline-start: 110px;
-    margin-inline-end: 110px;
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
 }
 
 .containerSectionCards{
     display: flex;
     width: 100%;
-    height: 60%;
+    height: 50%;
     align-items: center;
     justify-content: space-evenly;
     gap: 20px;
@@ -191,7 +198,7 @@ header{
     box-sizing: border-box;
     gap: 10px;
     width: 20%;
-    height: 85%;
+    height: 100%;
     border-radius: 20px;
     border: 1.5px solid #FFA600;
     padding: 10px 7px 10px 7px;
@@ -211,6 +218,75 @@ header{
 .containerSectionCardsElement h4{
     font-size: 1.5rem;
     color: #F7F7F2;
+}
+
+/* >>>>> Section Contact <<<<< */
+
+.sectionContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: #FFA600;
+}
+
+.sectionContact img{
+    height: 90% ;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(18, 17, 19, 0.9);
+}
+
+.sectionContactContent{
+    width: 50%;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.sectionContactContent h4{
+    font-size: 3rem;
+}
+
+.sectionContactContentItems{
+    display: flex;
+    gap: 75px;
+}
+
+.sectionContactContentItems li{
+    font-size: 2rem;
+    line-height: 1.8;
+    list-style-type: none;
+}
+
+.sectionContactContentItems p{
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.contentSocialMediaIcons{
+    display: flex;
+    gap: 40px;
+    align-items:initial;
+}
+
+.socialMediaIcons{
+    color: #121113;
+    font-size: 3rem;
+}
+
+/* >>>>> Footer <<<<< */
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    background-color: #121113;
+}
+
+.footer img{
+    height: 80%;
 }
 
 /* @media (max-width: 1450px) {
